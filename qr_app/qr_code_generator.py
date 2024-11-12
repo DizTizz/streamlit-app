@@ -14,5 +14,5 @@ def generator():
             time.sleep(1.5)
         qr_code = segno.make(url)
         qr_code = qr_code.to_pil(scale=10, dark=dark_colour)
-        qr_code.save("images/qrcode.png")
+        qr_code.save("qr_app/images/qrcode.png")
         st.image("images/qrcode.png", width=200)

@@ -16,4 +16,4 @@ elif page_selection == 'About me':
     st.title('Hewwo OwO')
 elif page_selection == 'Homepage 🏠':
     st.header('Hello, welcome to my page OwO')
-    st.image('images/main_banner.jpg')
+    st.image('qr_app/images/main_banner.jpg')

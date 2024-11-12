@@ -1,6 +1,6 @@
 import streamlit as st
-from decode_qrcode import decode_qrcode
-from qr_code_generator import generator
+from src.decode_qrcode import decode_qrcode
+from src.qr_code_generator import generator
 
 menu_options = ['Homepage 🏠','Generate QR-Code', 'Decode QR code', 'About me']
 st.set_page_config(page_title='QR Code generator', page_icon='👾')

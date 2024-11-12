@@ -2,7 +2,8 @@ import streamlit as st
 import segno
 
 def generate_qr_code(url):
-    qr_code = segno.make(url)
+    qr_code = segno.make_qr(url)
+    qr_code = qr_code.to_pil(scale=5, dark='blue')
     qr_code.save("images/qrcode.png")
 
 
